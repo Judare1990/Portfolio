@@ -97,7 +97,7 @@ const Portfolio = () => {
               GITHUB
             </a>
             <a
-              href="https://startling-lily-158bb3.netlify.app/"
+              href="https://startling-lily-158bb3.netlify.app"
               className="btn btn-primary"
               target="_blank"
               rel="noopener noreferrer"
