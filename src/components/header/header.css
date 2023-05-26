@@ -78,4 +78,11 @@ header {
   header {
     height: 100vh;
   }
+  .me {
+    width: 60%;
+    padding-top: 0rem;
+  }
+  .header__socials{
+    padding-top: 0rem;
+  }
 }
