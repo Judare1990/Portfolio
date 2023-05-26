@@ -37,7 +37,11 @@ const Contact = () => {
             <SiWhatsapp className="contact__option-icon" />
             <h4>Whatssap</h4>
             <h5>+57 3214850866</h5>
-            <a href="https://api.whatsapp.com/send?phone=+573214850866">
+            <a
+              href="https://api.whatsapp.com/send?phone=+573214850866"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Send a message
             </a>
           </article>
