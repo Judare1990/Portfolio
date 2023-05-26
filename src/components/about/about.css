@@ -47,7 +47,7 @@
   }
 
   .about__me-content {
-    text-align: center;
+    text-align: justify;
     justify-items: center;
     gap: 1.5rem;
   }
