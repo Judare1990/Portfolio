@@ -43,7 +43,7 @@ const Portfolio = () => {
           <h3>ECOMMERCE</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/Judare1990/Ecommerce1"
+              href="https://github.com/Judare1990/Shopping-cart"
               className="btn"
               target="_blank"
               rel="noopener noreferrer"
