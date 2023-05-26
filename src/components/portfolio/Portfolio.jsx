@@ -51,7 +51,7 @@ const Portfolio = () => {
               GITHUB
             </a>
             <a
-              href="https://melodious-pasca-979bce.netlify.app/"
+              href="https://harmonious-banoffee-38df92.netlify.app/"
               className="btn btn-primary"
               target="_blank"
               rel="noopener noreferrer"
