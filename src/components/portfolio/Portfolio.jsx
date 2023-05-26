@@ -23,6 +23,7 @@ const Portfolio = () => {
               href="https://github.com/Judare1990/Entregable5"
               className="btn"
               target="_blank"
+              rel="noopener noreferrer"
             >
               GITHUB
             </a>
@@ -30,6 +31,7 @@ const Portfolio = () => {
               href="https://dazzling-fenglisu-939c6b.netlify.app/#/pokedex/2"
               className="btn btn-primary"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Live Demo
             </a>
@@ -44,6 +46,7 @@ const Portfolio = () => {
               href="https://github.com/Judare1990/Ecommerce1"
               className="btn"
               target="_blank"
+              rel="noopener noreferrer"
             >
               GITHUB
             </a>
@@ -51,6 +54,7 @@ const Portfolio = () => {
               href="https://melodious-pasca-979bce.netlify.app/"
               className="btn btn-primary"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Live Demo
             </a>
@@ -65,6 +69,7 @@ const Portfolio = () => {
               href="https://github.com/Judare1990/Entregable3-Gen22"
               className="btn"
               target="_blank"
+              rel="noopener noreferrer"
             >
               GITHUB
             </a>
@@ -72,6 +77,7 @@ const Portfolio = () => {
               href="https://whimsical-kleicha-3ffa18.netlify.app/"
               className="btn btn-primary"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Live Demo
             </a>
@@ -86,6 +92,7 @@ const Portfolio = () => {
               href="https://github.com/Judare1990/Entregable2-__Gen22"
               className="btn"
               target="_blank"
+              rel="noopener noreferrer"
             >
               GITHUB
             </a>
@@ -93,6 +100,7 @@ const Portfolio = () => {
               href="https://startling-lily-158bb3.netlify.app/"
               className="btn btn-primary"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Live Demo
             </a>
@@ -107,6 +115,7 @@ const Portfolio = () => {
               href="https://github.com/Judare1990/Entregable1__gen22"
               className="btn"
               target="_blank"
+              rel="noopener noreferrer"
             >
               GITHUB
             </a>
@@ -114,6 +123,7 @@ const Portfolio = () => {
               href="https://storied-snickerdoodle-7d7938.netlify.app/"
               className="btn btn-primary"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Live Demo
             </a>

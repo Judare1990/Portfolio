@@ -10,13 +10,6 @@ footer a {
   color: var(--color-bg);
 }
 
-footer__logo {
-  font-size: 2rem;
-  font-weight: 500;
-  margin-bottom: 2rem;
-  display: inline-block;
-}
-
 .permalinks {
   display: flex;
   flex-wrap: wrap;
@@ -30,12 +23,11 @@ footer__logo {
   color: var(--color-bg);
 }
 
-  /* --- MEDIA QUERIES (SMALL DEVICES) --- */
-  
-  @media screen and (max-width: 600px) {
-    .permalinks{
-        flex-direction: column;
-        gap: 1.5rem;
-    }
+/* --- MEDIA QUERIES (SMALL DEVICES) --- */
+
+@media screen and (max-width: 600px) {
+  .permalinks {
+    flex-direction: column;
+    gap: 1.5rem;
   }
-  
+}
