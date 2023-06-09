@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "./components/header/Header";
 import Nav from "./components/nav/Nav";
 import About from "./components/about/About";
@@ -7,18 +7,32 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 
-const App = () => {
+import "./components/light-mode/lightMode.css";
+
+function App() {
+  const [lightMode, setLightMode] = useState(false);
   return (
-    <>
-      <Header />
-      <Nav />
-      <About />
-      <Experience />
-      <Portfolio />
-      <Contact />
-      <Footer />
-    </>
+    <div className={lightMode ? "light-mode" : ""}>
+      <>
+        <label className="light-button">
+          <input
+            type="checkbox"
+            checked={lightMode}
+            onChange={(handleChange) => setLightMode(!lightMode)}
+          />
+          <div className="mode">Mode</div>
+        </label>
+
+        <Header />
+        <Nav />
+        <About />
+        <Experience />
+        <Portfolio />
+        <Contact />
+        <Footer />
+      </>
+    </div>
   );
-};
+}
 
 export default App;
