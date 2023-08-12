@@ -5,6 +5,9 @@
         "Position":"Fullstack Developer",
         "Scroll": "Scroll Down"
     },
+    "mode":{
+        "mode": "Mode"
+    },
     "cv":{
         "cv": "Download CV"
     },

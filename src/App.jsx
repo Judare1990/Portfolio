@@ -26,7 +26,7 @@ function App() {
             checked={lightMode}
             onChange={(handleChange) => setLightMode(!lightMode)}
           />
-          <div className="mode">Mode</div>
+          <div className="mode">{t("mode.mode")}</div>
 
           <button
             className="language"
