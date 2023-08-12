@@ -1,0 +1,44 @@
+{
+    "header": {
+        "greeting": "HELLO I'M",
+        "myName": "JUAN DAVID REYES SANCHEZ",
+        "Position":"Fullstack Developer",
+        "Scroll": "Scroll Down"
+    },
+    "cv":{
+        "cv": "Download CV"
+    },
+    "about":{
+        "getTo": "Get to know",
+        "aboutme": "About Me",
+        "intro": "I am a full-stack web developer who is passionate about programming, conflict resolution and teamwork, based on discipline and perseverance. I stand out for my adaptability to change. Furthermore, i like to meet the goals set and learn from each project in order to grow up personally and professionally every day. I always try to find the best way to solve issues that we can face up at work. I am willing to learn new programming languages.",
+        "contact": "Let's Talk"
+    },
+    "experience": {
+        "skills": "What Skills I Have",
+        "experience": "My Experience",
+        "front": "Frontend Development",
+        "back": "Backend Development"
+    },
+    "portfolio": {
+        "recentWork": "My Recent Work",
+        "portfolio": "Portfolio"
+    },
+    "contact": {
+        "getintouch": "Get In Touch",
+        "contact": "Contact Me",
+        "email": "Email",
+        "sendMessage": "Send a message",
+        "placeholder": "Your Full Name",
+        "yourEmail": "Your Email",
+        "yourMessage": "Your Message"
+    },
+    "footer": {
+        "home": "Home",
+        "about": "About Me",
+        "experience": "Experience",
+        "portfolio": "Portfolio",
+        "contact": "Contact",
+        "rights": "All rights reserved"
+    }
+}

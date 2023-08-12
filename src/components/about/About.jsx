@@ -2,11 +2,16 @@ import React from "react";
 import "./about.css";
 import ME from "../../assets/me1.jpg";
 
+import { useTranslation } from "react-i18next";
+
 const About = () => {
+
+  const [t] = useTranslation("global");
+
   return (
     <section id="about">
-      <h5>Get to Know</h5>
-      <h2>About Me</h2>
+      <h5>{t("about.getTo")}</h5>
+      <h2>{t("about.aboutme")}</h2>
 
       <div className="container about__container">
         <div className="about__me">
@@ -15,15 +20,9 @@ const About = () => {
           </div>
         </div>
         <p className="about__me-content">
-          I am a full-stack web developer who is passionate about programming,
-          conflict resolution and teamwork, based on discipline and
-          perseverance. I stand out for my adaptability to change. Furthermore,
-          i like to meet the goals set and learn from each project in order to
-          grow up personally and professionally every day. I always try to find
-          the best way to solve issues that we can face up at work. I am willing
-          to learn new programming languages.
+          {t("about.intro")}
           <a href="#contact" className="btn btn-primary">
-            Let's Talk
+            {t("about.contact")}
           </a>
         </p>
       </div>

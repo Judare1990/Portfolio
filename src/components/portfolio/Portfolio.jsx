@@ -6,11 +6,15 @@ import Rick from "../../assets/Rick.png";
 import WeatherApp from "../../assets/WeatherApp.png";
 import InfoCards from "../../assets/InfoCards.png";
 
+import { useTranslation } from "react-i18next";
+
 const Portfolio = () => {
+  const [t] = useTranslation("global");
+
   return (
     <section id="portfolio">
-      <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h5>{t("portfolio.recentWork")}</h5>
+      <h2>{t("portfolio.portfolio")}</h2>
 
       <div className="container portfolio__container">
         <article className="portfolio__item">
@@ -33,7 +37,7 @@ const Portfolio = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Live Demo
+              Demo
             </a>
           </div>
         </article>
@@ -56,7 +60,7 @@ const Portfolio = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Live Demo
+              Demo
             </a>
           </div>
         </article>
@@ -79,7 +83,7 @@ const Portfolio = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Live Demo
+              Demo
             </a>
           </div>
         </article>
@@ -102,7 +106,7 @@ const Portfolio = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Live Demo
+              Demo
             </a>
           </div>
         </article>
@@ -125,7 +129,7 @@ const Portfolio = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Live Demo
+              Demo
             </a>
           </div>
         </article>

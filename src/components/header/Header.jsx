@@ -4,13 +4,18 @@ import CTA from "./CTA";
 import ME from "../../assets/me.jpg";
 import HeaderSocial from "./HeaderSocials";
 
+import { useTranslation } from "react-i18next";
+
 const Header = () => {
+  const [t] = useTranslation("global");
+
   return (
     <header>
+      
       <div className="container header__container">
-        <h5>HELLO I'M</h5>
-        <h1>JUAN DAVID REYES SANCHEZ</h1>
-        <h5 className="text-light">Fullstack Developer</h5>
+        <h5>{t("header.greeting")}</h5>
+        <h1>{t("header.myName")}</h1>
+        <h5 className="text-light">{t("header.Position")}</h5>
         <CTA />
         <HeaderSocial />
 
@@ -19,7 +24,7 @@ const Header = () => {
         </div>
 
         <a href="#contact" className="scroll__down">
-          Scroll Down
+          {t("header.Scroll")}
         </a>
       </div>
     </header>

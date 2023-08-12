@@ -1,0 +1,44 @@
+{
+    "header": {
+        "greeting": "Hola, Soy",
+        "myName": "JUAN DAVID REYES SANCHEZ",
+        "Position":"Desarrollador Fullstack",
+        "Scroll": "Ir abajo"
+    },
+    "cv":{
+        "cv": "Descargar CV"
+    },
+    "about":{
+        "getTo": "",
+        "aboutme": "Acerca de Mi",
+        "intro": "Soy un desarrollador web full-stack apasionado por la programación, la resolución de conflictos y el trabajo en equipo, basado en la disciplina y la constancia. Me destaco por mi adaptabilidad al cambio. Además, me gusta cumplir los objetivos marcados y aprender de cada proyecto para crecer personal y profesionalmente cada día. Siempre trato de encontrar la mejor manera de resolver los problemas que podemos enfrentar en el trabajo. Estoy dispuesto a aprender nuevos lenguajes de programación.",
+        "contact": "Contactame"
+    },
+    "experience": {
+        "skills": "Conocimientos",
+        "experience": "Mi experiencia",
+        "front": "Desarrollador Frontend",
+        "back": "Desarrollador Backend"
+    },
+    "portfolio": {
+        "recentWork": "Mi Trabajo Reciente",
+        "portfolio": "Portafolio"
+    },
+    "contact": {
+        "getintouch": "",
+        "contact": "Contactame",
+        "email": "Correo Electronico",
+        "sendMessage": "Enviar Mensaje",
+        "placeholder": "Nombre Completo",
+        "yourEmail": "Correo Electronico",
+        "yourMessage": "Tu mensaje"
+    },
+    "footer": {
+        "home": "Inicio",
+        "about": "Acerca De Mi",
+        "experience": "Experiencia",
+        "portfolio": "Portafolio",
+        "contact": "Contacto",
+        "rights": "Todos los derechos reservados"
+    }
+}

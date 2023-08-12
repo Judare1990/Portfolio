@@ -5,7 +5,10 @@ import { SiWhatsapp } from "react-icons/si";
 import { useRef } from "react";
 import emailjs from "emailjs-com";
 
+import { useTranslation } from "react-i18next";
+
 const Contact = () => {
+  const [t] = useTranslation("global");
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -21,16 +24,16 @@ const Contact = () => {
   };
   return (
     <section id="contact">
-      <h5>Get In Touch</h5>
-      <h2>Contact Me</h2>
+      <h5>{t("contact.getintouch")}</h5>
+      <h2>{t("contact.contact")}</h2>
 
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
             <MdOutlineMail className="contact__option-icon" />
-            <h4>Email</h4>
+            <h4>{t("contact.email")}</h4>
             <h5>judare85@hotmail.com</h5>
-            <a href="mailto:judare85@hotmail.com">Send a message</a>
+            <a href="mailto:judare85@hotmail.com">{t("contact.sendMessage")}</a>
           </article>
 
           <article className="contact__option">
@@ -42,7 +45,7 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Send a message
+              {t("contact.sendMessage")}
             </a>
           </article>
         </div>
@@ -50,18 +53,22 @@ const Contact = () => {
           <input
             type="text"
             name="name"
-            placeholder="Your Full Name"
+            placeholder={t("contact.placeholder")}
             required
           />
-          <input type="email" name="email" placeholder="Your Email" />
+          <input
+            type="email"
+            name="email"
+            placeholder={t("contact.yourEmail")}
+          />
           <textarea
             name="message"
-            placeholder="Your Message"
+            placeholder={t("contact.yourMessage")}
             rows="7"
             required
           ></textarea>
           <button type="submit" className="btn btn__primary">
-            Send Message
+            {t("contact.sendMessage")}
           </button>
         </form>
       </div>

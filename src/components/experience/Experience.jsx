@@ -2,14 +2,18 @@ import React from "react";
 import "./experience.css";
 import { BsFillBookmarkCheckFill } from "react-icons/bs";
 
+import { useTranslation } from "react-i18next";
+
 const Experience = () => {
+  const [t] = useTranslation("global");
+
   return (
     <section id="experience">
-      <h5>What Skills I Have</h5>
-      <h2>My Experience</h2>
+      <h5>{t("experience.skills")}</h5>
+      <h2>{t("experience.experience")}</h2>
       <div className="container experience__container">
         <div className="experience__frontEnd">
-          <h3>Frontend Development</h3>
+          <h3>{t("experience.front")}</h3>
           <div className="experience__content">
             <article className="experience__details">
               <BsFillBookmarkCheckFill className="experience__details-icon" />
@@ -45,7 +49,7 @@ const Experience = () => {
         </div>
         <div className="experience__backEnd">
           <div>
-            <h3>Backend Development</h3>
+            <h3>{t("experience.back")}</h3>
           </div>
           <div className="experience__content">
             <article className="experience__details">
