@@ -32,6 +32,10 @@
   display: grid;
   align-items: center;
 }
+.about__container{
+  padding-left: 3rem;
+  padding-right: 2rem;
+}
 
 /* --- MEDIA QUERIES (MEDIUM DEVICES) --- */
 

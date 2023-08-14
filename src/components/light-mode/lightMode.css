@@ -4,17 +4,15 @@
   border: 5px solid var(--color-primary);
   border-top: none;
 }
-
 .light-mode h5 {
   color: #000000;
 }
-
 .element-container {
   display: flex;
-  align-items: center;
-  gap: 10px; /* Espacio entre los elementos */
+  gap: 10px;
+  justify-content: center;
+  padding: 2rem;
 }
-
 /* Estilos para los botones de idioma */
 .language {
   background-color: transparent;
@@ -41,4 +39,13 @@
 
 .light-mode-button {
   color: #000000; /* Cambia el color del texto a negro en el modo claro */
+}
+
+
+/* --- MEDIA QUERIES (MEDIUM DEVICES) --- */
+
+@media screen and (max-width: 1024px) {
+  .about__container {
+    
+  }
 }
