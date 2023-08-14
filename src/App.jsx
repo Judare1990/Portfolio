@@ -14,7 +14,7 @@ import "./components/light-mode/lightMode.css";
 
 import { useTranslation } from "react-i18next";
 
-function App() {
+ function App() {
   const [t, i18n] = useTranslation("global");
   const [lightMode, setLightMode] = useState(false);
 
