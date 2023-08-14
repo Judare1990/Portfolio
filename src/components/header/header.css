@@ -63,7 +63,7 @@ header {
   transform: rotate(90deg);
   font-weight: 300;
   font-size: 0.9rem;
-  padding-right: 1.5rem;
+  padding-left: 5rem;
 }
 
 /* --- MEDIA QUERIES (MEDIUM DEVICES) --- */
@@ -71,6 +71,10 @@ header {
 @media screen and (max-width: 1024px) {
   header {
     height: 68vh;
+  }
+  .scroll__down{
+    padding: 1rem;
+    padding-left: 2em;
   }
 }
 
@@ -88,8 +92,11 @@ header {
     padding-top: 0rem;
   }
 }
+
+
+
+
 .modal {
-  /* ...otros estilos... */
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 20px;
