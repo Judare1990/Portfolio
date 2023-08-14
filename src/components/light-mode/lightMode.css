@@ -9,34 +9,36 @@
   color: #000000;
 }
 
-.light-button {
+.element-container {
   display: flex;
-  justify-content: center;
-  gap: 3rem;
-  padding: 1rem;
+  align-items: center;
+  gap: 10px; /* Espacio entre los elementos */
+}
+
+/* Estilos para los botones de idioma */
+.language {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
   align-items: center;
 }
-.light-button input[type="checkbox"] {
-  position: absolute;
-  opacity: 0;
-  pointer-events: none;
-}
-.language {
-  margin: 10px;
-  background-color: transparent;
-  color: whitesmoke;
-  cursor: pointer;
-  width: 20px;
+
+.flag-button {
+  width: 20px; /* Ajusta el tamaño de las banderas según tu preferencia */
   height: 20px;
-  transition: transform 0.3s ease;
+  margin: 0;
+  padding: 0;
 }
-.language:active {
-  transform: translateY(2px);
-}
-.mode {
-  transition: transform 0.3s ease;
+
+.mode-button {
+  padding: 0.5rem 1rem; /* Ajusta el padding del botón de modo */
+  background-color: transparent;
+  border: none;
   cursor: pointer;
+  color: #ffffff; /* Cambia el color del texto a blanco */
 }
-.mode:active {
-  transform: translateY(2px);
+
+.light-mode-button {
+  color: #000000; /* Cambia el color del texto a negro en el modo claro */
 }
