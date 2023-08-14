@@ -3,7 +3,8 @@
         "greeting": "HELLO I'M",
         "myName": "JUAN DAVID REYES SANCHEZ",
         "Position":"Fullstack Developer",
-        "Scroll": "Scroll Down"
+        "Scroll": "Scroll Down",
+        "chooseLanguage": "choose Language"
     },
     "mode":{
         "mode": "Mode"

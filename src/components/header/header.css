@@ -86,3 +86,21 @@ header {
     padding-top: 0rem;
   }
 }
+.modal {
+  /* ...otros estilos... */
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  align-items: center;
+}
+
+.language-buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.cancel-button {
+ 
+  grid-column: span 2; /* Ocupa dos columnas completas */
+}
