@@ -4,15 +4,14 @@ import CTA from "./CTA";
 import ME from "../../assets/me.jpg";
 import HeaderSocial from "./HeaderSocials";
 
-
 import { useTranslation } from "react-i18next";
 
 const Header = () => {
   const [t] = useTranslation("global");
 
   return (
-    <header>
-      
+    <section id="home">
+    <header >
       <div className="container header__container">
         <h5>{t("header.greeting")}</h5>
         <h1>{t("header.myName")}</h1>
@@ -28,7 +27,9 @@ const Header = () => {
           {t("header.Scroll")}
         </a>
       </div>
+      
     </header>
+    </section>
   );
 };
 
