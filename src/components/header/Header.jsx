@@ -10,8 +10,7 @@ const Header = () => {
   const [t] = useTranslation("global");
 
   return (
-    <section id="home">
-    <header >
+    <header id="home">
       <div className="container header__container">
         <h5>{t("header.greeting")}</h5>
         <h1>{t("header.myName")}</h1>
@@ -27,9 +26,7 @@ const Header = () => {
           {t("header.Scroll")}
         </a>
       </div>
-      
     </header>
-    </section>
   );
 };
 
